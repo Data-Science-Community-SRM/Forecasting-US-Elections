@@ -270,6 +270,16 @@ Model is fit on the dataset using model.fit() : Epochs = 7
 All the metrics observed during the model training are displayed on one plot :
 </h5>
 
+<br>
+<p align="center">
+<img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/DL1.png">
+</p>
+<h5>Now some tweets pertaining to Joe Biden are passed through the model, and prediction of sentiment is displayed.</5>
+<br>
+<p align="center">
+<img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/DL2.png">
+</p>
+
 
 
 
