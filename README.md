@@ -98,7 +98,7 @@ Some Visual Analysis outcome:
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Word_map_Bidden.jpeg">
 </p>
 <h5>WordCloud Of tweets for Bidden</h5>
-<h3>Trump</h3>
+<h3>Donald Trump</h3>
 <br>
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Sentiment_trump.png">
