@@ -15,19 +15,31 @@ Preprocessing Of our data is very vital for this project as it pertains to clean
 The preprocessing that was carried out in this project was mainly done on the tweets. 
 Firstly, the data has to be cleaned. For this we used various methods like checking for any null values , checking for duplicates ( & if any to remove them).
 After checking this, we move on with the actual preprocessing. There were many methods used. They are listed below – 
+
 1)Using Regular Expressions to remove Emojis from Tweets
+
 2)Using Regular Expressions to remove any retweets (if they exist) 
+
 3)Using Regular Expressions to remove the usernames from the tweets as they do not provide any additional information
+
 4)Using Regular Expressions to remove any URLs, websites,etc
+
 5)Using Regular Expressions to identify for any hashtags in the tweet, & if they exist, remove the hashtag & keep the word. This can be very useful when modelling as it does not remove any possible words that might be a major factor in calculating the sentiment
+
 6)Using Regular Expressions to remove any special characters, numbers , punctuations 
+
 7)Converting everything to lower case
+
 8)Lastly, we used the Tweet-Preprocessor Module for cleaning any leftover junk. 
 
 This was the major portion of preprocessing our tweets. Next, we have to get it ready for calculating our sentiment as well. So we will be performing certain tasks using NLTK Module. These are listed below –
+
 1)NLTK Module was used to tokenize all words
+
 2)NLTK Module was used for removing any existing stop words (eg. Or , from , them, Does , etc)
+
 3)NLTK Module was used to perform stemming
+
 4)Words that were less than a length of 2 were dropped
 
 
