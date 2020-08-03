@@ -5,44 +5,44 @@
 	<h2 align="center">  Forecasting the upcoming-elections-in-the-us-extracting-tweets
   </h2>
 	<h4 align="center">  Introduction</h4>
-<h5>
-Objective: Extraction of tweets and Perform sentiment analysis on the presidential candidature of Donald Trump, Joe Biden and Kanye West in the upcoming elections in US in November,2020.
 
-In this project we've extracted tweets using Twitter's API, and GetOldTweets library to overcome the timeframe limitations of Twitter API. After extraction, we have done preprocessing for cleaning the datasets, basic EDA, sentiment analysis to observe polarity towards each candidate, used classification models on these sentiments and created visualisations.
+**Objective: Extraction of tweets and Perform sentiment analysis on the presidential candidature of Donald Trump, Joe Biden and Kanye West in the upcoming elections in US in November, 2020.**
+
+In this project we've extracted tweets using Twitter's API, and GetOldTweets library to overcome the timeframe limitations of Twitter API. After extraction, we have done preprocessing for cleaning the datasets, basic EDA, sentiment analysis to observe polarity towards each candidate, used classification models on these sentiments and created visualizations.
 
 **Preprocessing Of Tweets**
 
-Preprocessing Of our data is very vital for this project as it pertains to cleaning actual tweets by users. This cleaning will prove to be a massive factor for the success rate of our project. This reduces complexity of data under analysis as data in real world is unclean.
+Preprocessing of our data is very vital for this project as it pertains to cleaning actual tweets by users. This cleaning will prove to be a massive factor for the success rate of our project. This reduces complexity of data under analysis as data in real world is unclean.
 The preprocessing that was carried out in this project was mainly done on the tweets. 
 
 Firstly, the data has to be cleaned. For this we used various methods like checking for any null values , checking for duplicates ( & if any to remove them).
 After checking this, we move on with the actual preprocessing. There were many methods used. They are listed below – 
 
-1)Using Regular Expressions to remove Emojis from Tweets
+* Using Regular Expressions to remove Emojis from Tweets
 
-2)Using Regular Expressions to remove any retweets (if they exist) 
+* Using Regular Expressions to remove any retweets (if they exist) 
 
-3)Using Regular Expressions to remove the usernames from the tweets as they do not provide any additional information
+* Using Regular Expressions to remove the usernames from the tweets as they do not provide any additional information
 
-4)Using Regular Expressions to remove any URLs, websites,etc
+* Using Regular Expressions to remove any URLs, websites,etc
 
-5)Using Regular Expressions to identify for any hashtags in the tweet, & if they exist, remove the hashtag & keep the word. This can be very useful when modelling as it does not remove any possible words that might be a major factor in calculating the sentiment
+* Using Regular Expressions to identify for any hashtags in the tweet, & if they exist, remove the hashtag & keep the word. This can be very useful when modelling as it does not remove any possible words that might be a major factor in calculating the sentiment
 
-6)Using Regular Expressions to remove any special characters, numbers , punctuations 
+* Using Regular Expressions to remove any special characters, numbers , punctuations 
 
-7)Converting everything to lower case
+* Converting everything to lower case
 
-8)Lastly, we used the Tweet-Preprocessor Module for cleaning any leftover junk. 
+* Lastly, we used the Tweet-Preprocessor Module for cleaning any leftover junk. 
 
 This was the major portion of preprocessing our tweets. Next, we have to get it ready for calculating our sentiment as well. So we will be performing certain tasks using NLTK Module. These are listed below –
 
-1)NLTK Module was used to tokenize all words
+* NLTK Module was used to tokenize all words
 
-2)NLTK Module was used for removing any existing stop words (eg. Or , from , them, Does , etc)
+* NLTK Module was used for removing any existing stop words (eg. Or , from , them, Does , etc)
 
-3)NLTK Module was used to perform stemming
+* NLTK Module was used to perform stemming
 
-4)Words that were less than a length of 2 were dropped
+* Words that were less than a length of 2 were dropped
 
 
 
@@ -50,11 +50,11 @@ This was the major portion of preprocessing our tweets. Next, we have to get it 
 
 Sentiment Analysis refers to processing and analyzing text and categorizing it into different states and emotions. Natural Language Processing is used for performing sentiment analysis, which is a subfield of artificial intelligence and linguistics to process and analyze large amounts of natural data. 
 
-To calculate the Sentiment of each tweet, we used the vader_lexicon file from NLTK which was used from the SentimentIntensityAnalyzer() package from NLTK module
+To calculate the Sentiment of each tweet, we used the vader_lexicon file from NLTK which was used from the SentimentIntensityAnalyzer() package from NLTK module.
 Using this we calculated the polarity of each tweet & created a dataframe. Each tweet was classified as Negative, Neutral, Positive & Compound with a score between zero & one pertaining to how close the tweet is to the column.
-The final sentiment was decided on the final score of the compound column. ( If less than zero, it would be classified as negative ;greater than zero, it would be classified as positive ; zero then neutral)
+The final sentiment was decided on the final score of the compound column. ( If less than zero, it would be classified as negative; greater than zero, it would be classified as positive; zero then neutral)
 Using these , we proceeded with making the final model.
-Some Visual Analysis outcome:
+Some Visual Analysis of our outcome:
 
 
   <h5>
@@ -251,11 +251,15 @@ The approach used here is splitting the dataset into training and testing datase
 There are different approaches used for the model evaluation. Since our problem falls under classification we need to identify which class defines positive result and which one negative. In our case, we assume that predicting ‘positive’ class is a positive result. If our model is predicting input text as ‘positive’ and it really has ‘positive’ label in test data, then it is called True positive. If our model predicted an input text as ‘positive’ though it is ‘negative’ in reality, it is called False Positive.
 While checking the model performance, we should always consider test data. Using training data will not make much sense as our model will be biased to give the actual prediction.
 
-**Confusion Matrix:** This matrix helps you to understand the types of errors made by our classifier.
-**Accuracy:** It measures the percentage of correct predictions .i.e the number of correct predictions made by our model divided by the total number of predictions.
-**Recall:** Recall measures the ability of the classifier to find all the positive data points. 
-**Precision:** It measures the proportion of correct positive predictions out of all positive predictions made by our model.
-**F1 score:**  F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
+* **Confusion Matrix:** This matrix helps you to understand the types of errors made by our classifier.
+
+* **Accuracy:** It measures the percentage of correct predictions .i.e the number of correct predictions made by our model divided by the total number of predictions.
+
+* **Recall:** Recall measures the ability of the classifier to find all the positive data points. 
+
+* **Precision:** It measures the proportion of correct positive predictions out of all positive predictions made by our model.
+
+* **F1 score:**  F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
 
 
 **Deep Learning Model** 
@@ -295,7 +299,7 @@ Model is fit on the dataset using model.fit() : Epochs = 7
 
 
 All the metrics observed during the model training are displayed on one plot :
-</h5>
+
 
 <br>
 <p align="center">
