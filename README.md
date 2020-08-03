@@ -221,11 +221,15 @@ Bayes’ Theorem, which is based on conditional probability or in simple terms, 
 
  
 
-•	“P” is the symbol to denote probability.
-•	P(A | B) = The probability of event A (hypothesis) occurring given that B (evidence) has occurred.
-•	P(B | A) = The probability of the event B (evidence) occurring given that A (hypothesis) has occurred.
-•	P(A) = The probability of event B (hypothesis) occurring.
-•	P(B) = The probability of event A (evidence) occurring.
+*	“P” is the symbol to denote probability.
+
+*	P(A | B) = The probability of event A (hypothesis) occurring given that B (evidence) has occurred.
+
+*	P(B | A) = The probability of the event B (evidence) occurring given that A (hypothesis) has occurred.
+
+*	P(A) = The probability of event B (hypothesis) occurring.
+
+*	P(B) = The probability of event A (evidence) occurring.
 
 **Random Forest:**
 
