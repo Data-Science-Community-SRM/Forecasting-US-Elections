@@ -148,11 +148,7 @@ Some Visual Analysis of our outcome:
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Countper_Senti_kanye.png">
 </p>
 <h5>As we can see from the graph, most of the population gave negative response towards Kanye.</h5>
-<br>
-<p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Tweetperhr_Kanye.png">
-</p>
-<h5>The above graph is giving the no. of tweets hourwise on particular day. This shows the time of the day when users are most active, and that is around 15 : 00  hrs.  </h5>
+
 <br>
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Tweetperhr_Kanye.png">
@@ -163,7 +159,6 @@ Some Visual Analysis of our outcome:
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Pol_neg_Kanye.png">
 </p>
-
 <br>
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Pol_neu_Kanye.png">
