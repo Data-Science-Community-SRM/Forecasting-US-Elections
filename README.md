@@ -140,11 +140,6 @@ Some Visual Analysis of our outcome:
 <h3>Kanye West</h3>
 <br>
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/Geomap_senti_Kanye.jpg">
-</p>
-<h5>This is a geomap. It shows the location of the users when they tweeted the respective tweets. We can observe that there’s a lot of red circles that denotes the neutral and response towards Kanye</h5>
-<br>
-<p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/wordmap_kanye.png">
 </p>
 <h5>WordCloud Of tweets for Kanye</h5>
@@ -183,7 +178,7 @@ Some Visual Analysis of our outcome:
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/polarity_kanye.png">
 </p>
 <br>
-<h5>
+
 	
 **Model Prediction**
 
@@ -305,7 +300,7 @@ All the metrics observed during the model training are displayed on one plot :
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/DL1.png">
 </p>
-<h5>Now some tweets pertaining to Joe Biden are passed through the model, and prediction of sentiment is displayed.</5>
+<h5>Now some tweets pertaining to Joe Biden are passed through the model, and prediction of sentiment is displayed.</h5>
 <br>
 <p align="center">
 <img src = "https://github.com/Data-Science-Community-SRM/extracting-tweets-forecasting-the-upcoming-elections-in-the-us/blob/master/Graphs/DL2.png">
