@@ -1,1 +1,0 @@
-This repository contains the project for extracting tweets to analyze the sentiment of people reacting to Kanye West's stint as a Presidential candidate for the US elections to be held in 2020
