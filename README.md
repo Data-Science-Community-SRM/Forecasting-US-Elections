@@ -254,7 +254,9 @@ While checking the model performance, we should always consider test data. Using
 * **Precision:** It measures the proportion of correct positive predictions out of all positive predictions made by our model.
 
 * **F1 score:**  F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
-
+ ### Result:
+ As mentioned above,people are most affirmative towards Joe Bidden.
+ Hence our model predicts that Joe Bidden will win the elections.
 
 **Deep Learning Model** 
 
